@@ -15,6 +15,7 @@ license = {text = "MIT"}
 [project.scripts]
 dmario24-banner = 'banner_dmario24.banner:show'
 dmario24-pic = 'banner_dmario24.banner:pic'
+dmario24-lotto = 'banner_dmario24.banner:lotto'
 
 [tool.pdm]
 distribution = true
