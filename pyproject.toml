@@ -12,6 +12,8 @@ requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
 
+[project.scripts]
+show-banner = 'banner_dmario24.banner:show'
 
 [tool.pdm]
 distribution = true
