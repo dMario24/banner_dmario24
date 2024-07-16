@@ -1,6 +1,6 @@
 [project]
 name = "banner_dmario24"
-version = "0.2.2"
+version = "0.3.0"
 description = "Banner Output Program"
 authors = [
     {name = "dMario24", email = "data.mario24@gmail.com"},
@@ -13,7 +13,8 @@ readme = "README.md"
 license = {text = "MIT"}
 
 [project.scripts]
-show-banner = 'banner_dmario24.banner:show'
+dmario24-banner = 'banner_dmario24.banner:show'
+dmario24-pic = 'banner_dmario24.banner:pic'
 
 [tool.pdm]
 distribution = true
